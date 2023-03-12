@@ -1,0 +1,67 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(roboto/RobotoCondensed-Bold.ttf);
+}
+
+body {
+    font-family: myFirstFont;  
+    color: #f8eb64;
+    background-image: url("images/pokemon-background.jpg");
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #006aab;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #006aab;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+p {
+    background-color: #006aab;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    white-space: break-spaces;
+    font-size: 25px;
+    height: 200px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
