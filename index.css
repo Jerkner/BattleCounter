@@ -44,24 +44,41 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    cursor: pointer;
+    
 }
+
 p {
     background-color: #006aab;
-    width: fit-content;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 10px 5px 10px;
+    padding: 5px 0px 5px 0px;
     border-radius: 5px;
     white-space: break-spaces;
-    font-size: 25px;
-    height: 200px;
+    font-size: 30px;
+    height: 240px;
 }
 
 #increment-btn {
     background: darkred;
 }
 
+#increment-btn:disabled {
+    background: rgb(159, 90, 90);
+    cursor: not-allowed;
+}
+
 #save-btn {
     background: darkgreen;
 }
 
+#save-btn:disabled {
+    background: rgb(82, 116, 82);
+    cursor: not-allowed;
+}
+
+#reset-btn {
+    color: black;
+    border: solid black 1px;
+}
