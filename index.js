@@ -22,7 +22,6 @@ function save() {
     count = 0
     document.getElementById("increment-btn").disabled = false;
     array.push(countDash)
-    console.log(array)
     if (array.length > 4 ) { 
         document.getElementById("increment-btn").disabled = true;
         document.getElementById("save-btn").disabled = true;
